@@ -102,6 +102,7 @@
     height: 100%; 
     width: 220px; 
     position: fixed; 
+    right: 0;
 } 
 .lista_3{
     display: inline-block; 
@@ -130,44 +131,10 @@
     margin-top: 15px; 
     border-color: var(--cor_hr);
 }
-.nome_funcionario{
-    margin-top: 20px;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
-    font-size: 15px; 
-    color: black;
-}
-.quadrado{
-    background-color: white;
-    border-radius: 13px; 
-    border: 0px;
-} 
-.funcionario{
-    height: 90px;
-    width: 90px;
-}
-.instagram{
-    height: 20px; 
-    width: 20px;
-}
 .divisao_lista4{
     display: flex; 
     align-items: center;
     margin-top: 32px;
-}
-.rede_social{
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
-    font-size: 15px; 
-    margin-left: 5px;
-}
-.menu2{
-    right: 0;
-}
-.navegacao2{
-    right: 0; /* Para ir para a esquerda */  
-    background-color: var(--cor_menu_lateral); 
-    height: 100%; 
-    width: 220px; 
-    position: fixed; 
 }
 .images_lista4{
     height: 33px;
@@ -182,13 +149,13 @@
     color: black;
 } 
 .textos_do_corpo{
-    margin-left: 230px; 
+    margin-left: 20px; 
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
-    margin-top: 14px; 
+    padding-top: 14px; 
     font-size: 20px;
 } 
 .textos_do_corpo2{
-    margin-left: 230px; 
+    margin-left: 20px; 
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     margin-top: 14px; 
 }
@@ -196,7 +163,7 @@
     display: flex;
 }
 .primeira_img{
-    margin-left: 230px; 
+    margin-left: 20px; 
     height: auto;
     width: 155px; 
 }
@@ -207,5 +174,5 @@
 .textos_do_corpo3{
     margin-left: 430px; 
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
-    margin-top: 64px; 
+    margin-top: 61px; 
 }
